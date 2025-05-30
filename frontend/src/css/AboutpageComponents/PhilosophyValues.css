@@ -1,0 +1,76 @@
+.philosophy-values {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #1a1a1a;
+  color: #fdfdfd;
+  animation: fadeIn 1s ease forwards;
+}
+
+.philosophy-values h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #fdfdfd;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.philosophy-values p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+.philosophy-values ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 1rem auto 0 auto;
+  text-align: left;
+}
+
+.philosophy-values li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  color: #fdfdfd;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.philosophy-values li strong {
+  color: #fcf43d;
+}
+
+.philosophy-values li:hover {
+  color: #fcf43d;
+  cursor: default;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .philosophy-values {
+    padding: 2rem 1rem;
+  }
+  .philosophy-values h2 {
+    font-size: 1.8rem;
+  }
+  .philosophy-values p {
+    font-size: 1rem;
+  }
+  .philosophy-values li {
+    font-size: 1rem;
+  }
+}

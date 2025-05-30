@@ -1,0 +1,72 @@
+.unique-features {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fdfdfd;
+  animation: fadeIn 1s ease forwards;
+}
+
+.unique-features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.unique-features ul {
+  list-style-type: none;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: left;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+}
+
+.unique-features li {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.unique-features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #fcf43d;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .unique-features {
+    padding: 2rem 1rem;
+  }
+  .unique-features h2 {
+    font-size: 1.8rem;
+  }
+  .unique-features ul {
+    font-size: 1rem;
+  }
+}
+
+
+.meet-the-team a{
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 10px;
+}

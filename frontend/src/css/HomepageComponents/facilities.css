@@ -1,0 +1,167 @@
+.facilities-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.facilities-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 40px;
+}
+
+.facility-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.facility-image img {
+    width: 127px;
+    height: 133px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.facility-image{
+    width: 127px;
+    height: 133px;
+}
+
+.facility-content {
+  flex: 1;
+}
+
+.facility-title {
+  line-height: 32px;
+ 
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFDF8;
+}
+
+.facility-description {
+    line-height: 24px;
+ 
+    font-size: 16px;
+    font-weight: 400;
+  color: #C4C4C4;
+  margin: 0;
+}
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+  .facilities-container {
+    max-width: 700px;
+    padding: 15px;
+  }
+  .facilities-heading {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .facilities-grid {
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 25px 30px;
+  }
+  .facility-item {
+    padding: 12px;
+    gap: 15px;
+  }
+  .facility-image img {
+    width: 110px;
+    height: 115px;
+  }
+  .facility-title {
+    font-size: 16px;
+  }
+  .facility-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .facilities-container {
+    max-width: 500px;
+    padding: 12px;
+  }
+  .facilities-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .facilities-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+  }
+  .facility-item {
+    flex-direction: row;
+    padding: 10px;
+    gap: 12px;
+  }
+  .facility-image img {
+    width: 90px;
+    height: 95px;
+  }
+  .facility-title {
+    font-size: 14px;
+  }
+  .facility-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .facilities-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .facilities-heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .facility-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+  }
+  .facility-image img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    border-radius: 6px;
+  }
+  .facility-title {
+    font-size: 14px;
+  }
+  .facility-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .facilities-container {
+    padding: 8px;
+  }
+  .facilities-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .facility-title {
+    font-size: 12px;
+  }
+  .facility-description {
+    font-size: 10px;
+  }
+}

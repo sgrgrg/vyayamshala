@@ -1,0 +1,147 @@
+.connect-container {
+  text-align: center;
+}
+
+.connect-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.connect-content {
+  display: flex;
+  background-color: #FFFDF8;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 100%;
+  margin: 0;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+
+.connect-image-container {
+  flex: 1 1 45%;
+  overflow: hidden;
+}
+
+.connect-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  animation: slideInLeft 1s ease forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.connect-form-container {
+  flex: 1 1 45%;
+  text-align: left;
+}
+
+.connect-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.connect-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #050706;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.connect-input {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.connect-input:focus {
+  border-color: #333;
+}
+
+.connect-button {
+  background-color: #FCF43D;
+  color: black;
+  padding: 14px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #fff;
+  border: #FCF43D 3px solid;
+}
+
+@media (max-width: 768px) {
+  .connect-content {
+    flex-direction: column;
+  }
+  .connect-image-container,
+  .connect-form-container {
+    flex: 1 1 100%;
+  }
+  .connect-form-container {
+    text-align: center;
+  }
+}
+
+/* Additional responsiveness for smaller devices */
+@media (max-width: 480px) {
+  .connect-heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .connect-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .connect-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .connect-input {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  .connect-button {
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+
+  .connect-content {
+    padding-right: 10px;
+    gap: 20px;
+  }
+}

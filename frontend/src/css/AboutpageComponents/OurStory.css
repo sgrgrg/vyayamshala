@@ -1,0 +1,47 @@
+.our-story {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fdfdfd;
+  animation: fadeIn 1s ease forwards;
+}
+
+.our-story h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.our-story p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  max-width: 700px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .our-story {
+    padding: 2rem 1rem;
+  }
+  .our-story h2 {
+    font-size: 1.8rem;
+  }
+  .our-story p {
+    font-size: 1rem;
+  }
+}

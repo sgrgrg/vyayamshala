@@ -1,0 +1,75 @@
+.service-details {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.service-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-details .intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.details-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.details-section > div {
+  flex: 1 1 40%;
+  min-width: 250px;
+}
+
+.details-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #FCF43D;
+}
+
+.details-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #FCF43D;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.pricing a {
+  color: #FCF43D;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pricing a:hover {
+  text-decoration: underline;
+}
+
+.service-icons {
+  margin-top: 30px;
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: #FCF43D;
+}

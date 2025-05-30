@@ -1,0 +1,33 @@
+.faqs-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  max-width: 900px;
+  margin: 100px auto auto auto;
+  border-radius: 8px;
+}
+
+.faqs-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.faq-item h3 {
+  font-size: 1.25rem;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #555;
+  margin-left: 10px;
+}

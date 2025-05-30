@@ -1,0 +1,52 @@
+.hero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #FCF43D;
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+.hero-icons {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
